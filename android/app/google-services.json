@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "722104691342",
+    "project_id": "bussr-306811",
+    "storage_bucket": "bussr-306811.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722104691342:android:07ccee2cbefb7f505b77df",
+        "android_client_info": {
+          "package_name": "com.bussr.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722104691342-9l5fo83v1nntskb530m2ng3j7o89o04s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu9Qzra-MYVYnOIeKXP-CL8S8OvbModUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722104691342-9l5fo83v1nntskb530m2ng3j7o89o04s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "722104691342-bgrah20i0pv68hrodt6e4omnqi0nbl8g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bussr.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
