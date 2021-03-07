@@ -1,19 +1,19 @@
 import {connect} from 'react-redux';
 import SearchComponent from './SearchComponent';
-import getItemsSagas from '../../middleware/searchSaga';
+import {setProducts} from '../../redux/actions/productsActions';
 
 function mapStateToProps(state) {
   return {
-    ...state.searchReducer,
+    ...state.productReducer,
   };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    getItems: () => {
-      dispatch(getItemsSagas());
+    setItems: (productItems) => {
+      dispatch(setProducts(productItems));
     },
   };
 }
 
-export default SearchComponent;
+export default connect(mapStateToProps, mapDispatchToProps)(SearchComponent);
