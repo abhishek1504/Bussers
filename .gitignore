@@ -22,7 +22,12 @@ DerivedData
 
 # Android/IntelliJ
 #
-build/
+android/build/
+android/app/build/generated/
+android/app/build/intermediates/
+android/app/build/reports/
+android/app/build/tmp/
+android/app/build/outputs/logs
 .idea
 .gradle
 local.properties
